@@ -1,0 +1,25 @@
+#Create_List -
+
+list=["A","B","C","D"]
+print(list)
+
+#Read_List -
+
+list=["A","B","C","D"]
+
+if "A" in list:
+    print("Present")
+else:
+    print("Absent")
+
+#Update_List -
+
+list=["A","B","C","D"]
+list.append("E")
+print(list)
+
+#Delete_List
+
+list=["A","B","C","D"]
+del list
+print(list)
