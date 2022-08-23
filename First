@@ -1,6 +1,9 @@
 #Create_List -
 
-list=["A","B","C","D"]
+list=[]
+for i in range(4):
+    i=input("Enter Alphabet-")
+    list.append(i)
 print(list)
 
 #Read_List -
