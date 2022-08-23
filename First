@@ -9,12 +9,16 @@ print(list)
 #Read_List -
 
 list=["A","B","C","D"]
-
-if "A" in list:
-    print("Present")
+find=input("Enter Alphabet to Search-")
+for i in range(len(list)):
+    if find==(list[i]):
+        print("Present")
+        break
+    elif i == (len(list)):
+        print("Absent")
 else:
     print("Absent")
-
+ 
 #Update_List -
 
 list=["A","B","C","D"]
